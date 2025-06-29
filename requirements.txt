@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+openai
+google-generativeai
+requests
+pillow
+pydub
+python-multipart
+firebase-admin
