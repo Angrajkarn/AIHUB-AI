@@ -1,0 +1,14 @@
+{
+  "hosting": null,
+    "public": "dist",
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "run": {
+          "serviceId": "aihub-api",
+          "region": "us-central1"
+        }
+      }
+    ]
+  
+}
